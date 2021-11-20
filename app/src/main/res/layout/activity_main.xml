@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <Button
+        android:id="@+id/BDbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".02"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Bangladesh"
+android:drawableLeft="@drawable/bangladesh" />
+    <Button
+        android:id="@+id/indiabtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/BDbtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/India"
+        android:drawableLeft="@drawable/india" />
+    <Button
+        android:id="@+id/pkbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/indiabtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Pakistan"
+        android:drawableLeft="@drawable/pakistan" />
+    <Button
+        android:id="@+id/sribtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pkbtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Sri_Lanka"
+        android:drawableLeft="@drawable/srilanka" />
+    <Button
+        android:id="@+id/nepalbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sribtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Nepal"
+        android:drawableLeft="@drawable/nepal" />
+    <Button
+        android:id="@+id/butanbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nepalbtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Bhutan"
+        android:drawableLeft="@drawable/bhutan" />
+
+    <Button
+        android:id="@+id/maldivsbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/butanbtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Maldives"
+        android:drawableLeft="@drawable/maldives" />
+
+    <Button
+        android:id="@+id/afganistanbtnID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/maldivsbtnID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        app:layout_constraintHorizontal_bias=".5"
+        android:text="@string/Afghanistan"
+        android:drawableLeft="@drawable/afghanistan" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
