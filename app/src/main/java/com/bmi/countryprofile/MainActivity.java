@@ -41,7 +41,7 @@ if(view.getId()==R.id.BDbtnID){
     intent=new Intent(MainActivity.this,ProfileActivity.class);
     intent.putExtra("name","Bangladesh");
     startActivity(intent);}
-}
+
 
 
         if(view.getId()==R.id.indiabtnID){
@@ -50,39 +50,38 @@ if(view.getId()==R.id.BDbtnID){
             startActivity(intent);}
 
 
-    }if(view.getId()==R.id.pkbtnID){
+        if(view.getId()==R.id.pkbtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
             intent.putExtra("name","Pakistan");
             startActivity(intent);}
 
 
-    }if(view.getId()==R.id.sribtnID){
+        if(view.getId()==R.id.sribtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
-            intent.putExtra("name","Srilanka");
+            intent.putExtra("name","Sri Lanks");
             startActivity(intent);}
 
-            if(view.getId()==R.id.nepalbtnID){
+
+        if(view.getId()==R.id.nepalbtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
             intent.putExtra("name","Nepal");
             startActivity(intent);}
 
-            if(view.getId()==R.id.butanbtnID){
+
+        if(view.getId()==R.id.butanbtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
             intent.putExtra("name","Bhutan");
             startActivity(intent);}
 
-            if(view.getId()==R.id.maldivsbtnID){
+        if(view.getId()==R.id.maldivsbtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
-            intent.putExtra("name","Maldivs");
+            intent.putExtra("name","Maldives");
             startActivity(intent);}
 
-            if(view.getId()==R.id.afganistanbtnID){
+        if(view.getId()==R.id.afganistanbtnID){
             intent=new Intent(MainActivity.this,ProfileActivity.class);
             intent.putExtra("name","Afganistan");
-            startActivity(intent);
-
-
-    }
+            startActivity(intent);}
 
 
 
@@ -90,5 +89,13 @@ if(view.getId()==R.id.BDbtnID){
 
 
 
+}
+}
 
-}}}}
+
+
+
+
+
+
+
